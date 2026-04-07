@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+</title>
+    <link rel="icon" href="assets/vectors/youtube_icon.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <img class="menu" src="assets/vectors/menu.svg" alt="Ícone de menu">
+                <img class="youtube" src="assets/vectors/youtube.svg" alt="Logo YouTube">
+            </div>
+
+            <div class="center">
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="button">
+                        <img src="assets/vectors/search.svg" alt="Pesquisar">
+                    </button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img class="video-icon" src="assets/vectors/video.svg" alt="Ícone de vídeo">
+                <img class="bell-icon" src="assets/vectors/bell.svg" alt="Ícone de sino">
+                <img class="avatar" src="assets/vectors/Avatar.svg" alt="Foto de perfil">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="watching-video">
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/RLP4TOVZFrw?si=yzL7j-tN7WTODe4L"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+            <h1 class="video-title">
+                Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+            </h1>
+
+            <div class="video-actions">
+
+                <div class="channel-info">
+                    <img class="channel-avatar" src="assets/vectors/Channel_Avatar.svg" alt="Avatar do canal DIO">
+                    <div class="channel-text">
+                        <p class="channel-name">DIO</p>
+                        <p class="followers">82,3 mil inscritos</p>
+                    </div>
+                    <button class="subscribe">INSCREVA-SE</button>
+                </div>
+
+                <div class="action-buttons">
+                    <div class="action">
+                        <img src="assets/vectors/thumbs-up.svg" alt="Gostei">
+                        <span>2 mil</span>
+                    </div>
+                    <div class="action">
+                        <img src="assets/vectors/thumbs-up.svg" alt="Não gostei">
+                        <span>Não gostei</span>
+                    </div>
+                    <div class="action">
+                        <img src="assets/vectors/share-2.svg" alt="Compartilhar">
+                        <span>Compartilhar</span>
+                    </div>
+                    <div class="action">
+                        <img src="assets/vectors/download.svg" alt="Download">
+                        <span>Download</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="video-stats">28.418 visualizações · Transmitido ao vivo em 23 ago. de 2022</p>
+
+            <p class="video-description">
+                Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+                Para isso, criaremos uma landing page com a temática da série
+                Stranger Things, a qual contará com a implementação de um theme
+                switcher (light e dark) para explorarmos os mistérios do mundo invertido.
+            </p>
+
+        </div>
+
+        <aside class="sidebar">
+
+            <div class="video-card">
+                <img src="assets/images/Thumb.png" alt="Thumbnail Geração Tech Unimed">
+                <div class="video-card-info">
+                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                    <p class="card-meta">DigitalInnovationOne</p>
+                    <p class="card-meta">2,1 mil visualizações · Transmitido há 2 dias</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="assets/images/image_12.png" alt="Thumbnail Scrum Talks">
+                <div class="video-card-info">
+                    <h3>Scrum Talks</h3>
+                    <p class="card-meta">DigitalInnovationOne</p>
+                    <p class="card-meta">1,6 mil visualizações · Transmitido há 3 dias</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="assets/images/image_13.png" alt="Thumbnail Machine Learning">
+                <div class="video-card-info">
+                    <h3>Machine Learning Avançado - Fast Track</h3>
+                    <p class="card-meta">DigitalInnovationOne</p>
+                    <p class="card-meta">1,7 mil visualizações · Transmitido há 4 dias</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="assets/images/image_14.png" alt="Thumbnail Global Skills">
+                <div class="video-card-info">
+                    <h3>Global Skills #2 - Project Planning</h3>
+                    <p class="card-meta">DigitalInnovationOne</p>
+                    <p class="card-meta">971 visualizações · Transmitido há 5 dias</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="assets/images/image_15.png" alt="Thumbnail Python do Zero">
+                <div class="video-card-info">
+                    <h3>Como aprender a programar Python do ZERO</h3>
+                    <p class="card-meta">DigitalInnovationOne</p>
+                    <p class="card-meta">711 visualizações · Transmitido há 6 dias</p>
+                </div>
+            </div>
+
+        </aside>
+
+    </main>
+
+</body>
+</html>
